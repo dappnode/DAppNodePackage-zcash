@@ -1,0 +1,17 @@
+version: '3.4'
+services:
+  zcash.public.dappnode.eth:
+    image: 'zcash.public.dappnode.eth:0.1.0'
+    build: ./build
+    restart: always
+    volumes: 
+      - zcash:/home/zcash
+    ports:
+      - 8233/tcp
+    environment: 
+      - ZCASH_RPCUSER=dappnode
+      - ZCASH_RPCPASSWORD=dappnode
+      - ZCASH_RPCALLOWIP=172.33.0.0/16
+      - ZCASH_RPCPORT=8332
+volumes: 
+  zcash: {}

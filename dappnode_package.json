@@ -1,0 +1,41 @@
+{
+  "name": "zcash.public.dappnode.eth",
+  "version": "0.1.0",
+  "upStreamVersion": "v2.0.7-3",
+  "shortDescription": "Zcash is a privacy-protecting, digital currency built on strong science.",
+  "description": "Zcash is a privacy-protecting, digital currency built on strong science. Transact efficiently and safely with low fees while ensuring digital transactions remain private. Selectively share address and transaction information for auditing or regulatory compliance.",
+  "type": "service",
+  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "contributors": [
+    "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+  ],
+  "chain": "bitcoin",
+  "requirements": {
+    "minimumDappnodeVersion": "0.2.10"
+  },
+  "links": {
+    "host": "zcash.public.dappnode",
+    "homepage": "https://github.com/dappnode/DAppNodePackage-zcash#readme"
+  },
+  "license": "GLP-3.0",
+  "categories": [
+    "Blockchain"
+  ],
+  "keywords": [
+    "zcash"
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dappnode/DAppNodePackage-zcash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-zcash/issues"
+  },
+  "avatar": "/ipfs/QmSZ9z13Vaf8NHn3PjdKNa8D8RtYxkjwTpPjkA7UBfuR4J",
+  "image": {
+    "path": "zcash.public.dappnode.eth_0.1.0.tar.xz",
+    "hash": "/ipfs/QmdAuEEBhcGDV8KmntcVmkrhKiLHeGZzvVJXNY6BzEdmPY",
+    "size": 32156632
+  }
+}
