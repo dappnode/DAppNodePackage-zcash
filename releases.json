@@ -1,16 +1,10 @@
 {
-  "0.0.1": {
-    "hash": "/ipfs/QmTnFDy2HjriV5rkANZPubi7SFMvQvbkzWEpVqAxV8hEqr",
-    "type": "directory",
-    "uploadedTo": {
-      "dappnode": "Mon, 30 Sep 2019 10:48:33 GMT"
-    }
-  },
   "0.1.0": {
-    "hash": "/ipfs/QmXKNLDysidGHdtrCsrpxvk5RPe3hfqywfHT9iGwEG74Qr",
+    "hash": "/ipfs/QmY5jtr37KuNqci69EAdaHJpBTQG2E48fqntk3GS1FKTm7",
     "type": "directory",
     "uploadedTo": {
-      "dappnode": "Tue, 01 Oct 2019 06:36:52 GMT"
-    }
+      "dappnode": "Sat, 14 Dec 2019 13:19:45 GMT"
+    },
+    "link": "http://my.dappnode/#/sdk/publish/r=zcash.public.dappnode.eth&v=0.1.0&h=%2Fipfs%2FQmecNEhYDC4LUz9iZiLu5tWP9psQADnjnuba55nmRdguLQ&d=0xF35960302a07022aBa880DFFaEC2Fdd64d5BF1c1"
   }
 }
