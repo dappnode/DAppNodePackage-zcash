@@ -1,6 +1,6 @@
 {
   "name": "zcash.public.dappnode.eth",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "upstreamVersion": "3.0.0",
   "shortDescription": "Zcash is a privacy-protecting, digital currency built on strong science.",
   "description": "Zcash is a privacy-protecting, digital currency built on strong science. Transact efficiently and safely with low fees while ensuring digital transactions remain private. Selectively share address and transaction information for auditing or regulatory compliance.",

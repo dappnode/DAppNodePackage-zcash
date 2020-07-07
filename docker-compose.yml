@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   zcash.public.dappnode.eth:
-    image: 'zcash.public.dappnode.eth:0.1.2'
+    image: 'zcash.public.dappnode.eth:0.2.1'
     build:
       context: ./build
       args:
