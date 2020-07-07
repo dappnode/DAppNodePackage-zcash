@@ -14,5 +14,12 @@
       "dappnode": "Sat, 14 Dec 2019 13:27:15 GMT"
     },
     "link": "http://my.dappnode/#/sdk/publish/r=zcash.public.dappnode.eth&v=0.1.1&h=%2Fipfs%2FQmTPgKki7ofMrnSom1vv5Jh1peD7JPq14JExKruKYGDTSW"
+  },
+  "0.1.2": {
+    "hash": "/ipfs/QmPHU7X7pNX5pSsTygt4onvTk5jhNmbnTJpJrUuFuM6sw4",
+    "type": "directory",
+    "uploadedTo": {
+      "dappnode": "Tue, 07 Jul 2020 18:04:15 GMT"
+    }
   }
 }
