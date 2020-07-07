@@ -1,5 +1,5 @@
 FROM debian:stretch-slim
-
+ARG UPSTREAM_VERSION
 ENV ZCASH_DIR /home/zcash/.zcash
 ENV ZCASH_CONF ${ZCASH_DIR}/zcash.conf
 WORKDIR /home/zcash
@@ -7,7 +7,7 @@ WORKDIR /home/zcash
 RUN apt-get update && apt-get -y install apt-transport-https wget gnupg2 && \ 
     wget -qO - https://apt.z.cash/zcash.asc | apt-key add - && \
     echo "deb [arch=amd64] https://apt.z.cash/ jessie main" | tee /etc/apt/sources.list.d/zcash.list && \
-    apt-get update && apt-get -y install zcash
+    apt-get update && apt-get -y install -y zcash=${UPSTREAM_VERSION}
 
 RUN useradd -ms /bin/bash zcash && \
     mkdir -p ${ZCASH_DIR}; \
