@@ -1,6 +1,6 @@
 {
   "name": "zcash.public.dappnode.eth",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "upstreamVersion": "v4.2.0",
   "shortDescription": "Zcash is a privacy-protecting, digital currency built on strong science.",
   "description": "Zcash is a privacy-protecting, digital currency built on strong science. Transact efficiently and safely with low fees while ensuring digital transactions remain private. Selectively share address and transaction information for auditing or regulatory compliance.",
@@ -18,12 +18,8 @@
     "homepage": "https://github.com/dappnode/DAppNodePackage-zcash#readme"
   },
   "license": "GLP-3.0",
-  "categories": [
-    "Blockchain"
-  ],
-  "keywords": [
-    "zcash"
-  ],
+  "categories": ["Blockchain"],
+  "keywords": ["zcash"],
   "dependencies": {},
   "repository": {
     "type": "git",

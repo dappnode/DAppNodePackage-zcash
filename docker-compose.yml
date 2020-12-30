@@ -1,16 +1,16 @@
-version: '3.4'
+version: "3.4"
 services:
   zcash.public.dappnode.eth:
-    image: 'zcash.public.dappnode.eth:0.2.1'
+    image: "zcash.public.dappnode.eth:0.2.3"
     build:
       context: ./build
       args:
         - UPSTREAM_VERSION=4.0.0
     restart: always
     volumes:
-      - 'zcash:/home/zcash'
+      - "zcash:/home/zcash"
     ports:
-      - '8233:8233/tcp'
+      - "8233:8233/tcp"
     environment:
       - ZCASH_RPCUSER=dappnode
       - ZCASH_RPCPASSWORD=dappnode
