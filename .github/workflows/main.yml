@@ -6,12 +6,13 @@ on:
     branches:
       - "master"
       - "v[0-9]+.[0-9]+.[0-9]+"
+      - "main"
     paths-ignore:
       - "README.md"
 
 jobs:
   build-test:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     name: Build test
     if: github.event_name != 'push'
     steps:
