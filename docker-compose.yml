@@ -3,7 +3,7 @@ services:
   zcash.public.dappnode.eth:
     image: "zcash.public.dappnode.eth:0.2.1"
     build:
-      context: ./build
+      context: ./src
       args:
         UPSTREAM_VERSION: v5.0.0
     restart: unless-stopped
