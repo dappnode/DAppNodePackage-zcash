@@ -19,7 +19,7 @@
     "host": "zcash.public.dappnode",
     "homepage": "https://github.com/dappnode/DAppNodePackage-zcash#readme"
   },
-  "license": "GLP-3.0",
+  "license": "GPL-3.0",
   "categories": ["Blockchain"],
   "keywords": ["zcash"],
   "dependencies": {},
