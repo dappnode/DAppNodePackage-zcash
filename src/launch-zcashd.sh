@@ -140,7 +140,7 @@ EOF
 zcash-fetch-params 
 
 if [ $# -eq 0 ]; then
-    exec zcashd -printtoconsole
+    exec zcashd -port=${P2P_PORT} -printtoconsole
 else
     exec "$@"
 fi
