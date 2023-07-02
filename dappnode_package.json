@@ -17,6 +17,7 @@
   },
   "links": {
     "host": "zcash.public.dappnode",
+    "api": "http://zcash.public.dappnode:8332",
     "homepage": "https://github.com/dappnode/DAppNodePackage-zcash#readme"
   },
   "license": "GPL-3.0",
