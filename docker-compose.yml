@@ -16,6 +16,6 @@ services:
       ZCASH_RPCPASSWORD: dappnode
       ZCASH_RPCALLOWIP: 172.33.0.0/16
       ZCASH_RPCPORT: 8332
-      P2P_PORT: 8333
+      P2P_PORT: 8233
 volumes:
   zcash: {}
