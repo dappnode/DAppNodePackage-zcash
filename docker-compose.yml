@@ -5,7 +5,7 @@ services:
     build:
       context: ./src
       args:
-        UPSTREAM_VERSION: v5.6.1
+        UPSTREAM_VERSION: v5.6.0
     restart: unless-stopped
     volumes:
       - "zcash:/home/zcash"
