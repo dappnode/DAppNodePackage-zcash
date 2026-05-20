@@ -1,12 +1,12 @@
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 ARG UPSTREAM_VERSION
 ENV ZCASH_DIR /home/zcash/.zcash
 ENV ZCASH_CONF ${ZCASH_DIR}/zcash.conf
 WORKDIR /home/zcash
 
-RUN apt-get update && apt-get -y install apt-transport-https wget gnupg2 libc6 && \ 
+RUN apt-get update && apt-get -y install apt-transport-https wget gnupg2 libc6 && \
     wget -qO - https://apt.z.cash/zcash.asc | apt-key add - && \
-    echo "deb [arch=amd64] https://apt.z.cash/ buster main" | tee /etc/apt/sources.list.d/zcash.list && \
+    echo "deb [arch=amd64] https://apt.z.cash/ bullseye main" | tee /etc/apt/sources.list.d/zcash.list && \
     apt-get update && apt-get -y install -y zcash=${UPSTREAM_VERSION#v}
 
 RUN useradd -ms /bin/bash zcash && \
@@ -21,4 +21,3 @@ EXPOSE 8233/tcp
 VOLUME /home/zcash
 
 ENTRYPOINT ["/bin/bash", "/usr/local/bin/launch-zcashd.sh"]
-
