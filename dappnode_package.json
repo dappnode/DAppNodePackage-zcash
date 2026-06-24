@@ -1,34 +1,38 @@
 {
-  "name": "zcash.public.dappnode.eth",
-  "version": "0.2.16",
-  "upstreamVersion": "v6.12.5",
-  "shortDescription": "Zcash is a privacy-protecting, digital currency built on strong science.",
-  "description": "Zcash is a privacy-protecting, digital currency built on strong science. Transact efficiently and safely with low fees while ensuring digital transactions remain private. Selectively share address and transaction information for auditing or regulatory compliance.",
-  "type": "service",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-zcash/issues"
+  },
+  "categories": [
+    "Blockchain"
+  ],
+  "chain": "bitcoin",
   "contributors": [
     "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
   ],
-  "upstreamRepo": "zcash/zcash",
-  "upstreamArg": "UPSTREAM_VERSION",
-  "chain": "bitcoin",
-  "requirements": {
-    "minimumDappnodeVersion": "0.2.10"
-  },
-  "links": {
-    "host": "zcash.public.dappnode",
-    "api": "http://zcash.public.dappnode:8332",
-    "homepage": "https://github.com/dappnode/DAppNodePackage-zcash#readme"
-  },
-  "license": "GPL-3.0",
-  "categories": ["Blockchain"],
-  "keywords": ["zcash"],
   "dependencies": {},
+  "description": "Zcash is a privacy-protecting, digital currency built on strong science. Transact efficiently and safely with low fees while ensuring digital transactions remain private. Selectively share address and transaction information for auditing or regulatory compliance.",
+  "keywords": [
+    "zcash"
+  ],
+  "license": "GPL-3.0",
+  "links": {
+    "api": "http://zcash.public.dappnode:8332",
+    "homepage": "https://github.com/dappnode/DAppNodePackage-zcash#readme",
+    "host": "zcash.public.dappnode"
+  },
+  "name": "zcash.public.dappnode.eth",
   "repository": {
     "type": "git",
     "url": "https://github.com/dappnode/DAppNodePackage-zcash.git"
   },
-  "bugs": {
-    "url": "https://github.com/dappnode/DAppNodePackage-zcash/issues"
-  }
+  "requirements": {
+    "minimumDappnodeVersion": "0.2.10"
+  },
+  "shortDescription": "Zcash is a privacy-protecting, digital currency built on strong science.",
+  "type": "service",
+  "upstreamArg": "UPSTREAM_VERSION",
+  "upstreamRepo": "zcash/zcash",
+  "upstreamVersion": "v6.20.0",
+  "version": "0.2.17"
 }
