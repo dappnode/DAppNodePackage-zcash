@@ -1,7 +1,13 @@
 {
   "name": "zcash.public.dappnode.eth",
   "version": "0.2.16",
-  "upstreamVersion": "v6.20.0",
+  "upstream": [
+    {
+      "repo": "zcash/zcash",
+      "version": "v6.20.0",
+      "arg": "UPSTREAM_VERSION"
+    }
+  ],
   "shortDescription": "Zcash is a privacy-protecting, digital currency built on strong science.",
   "description": "Zcash is a privacy-protecting, digital currency built on strong science. Transact efficiently and safely with low fees while ensuring digital transactions remain private. Selectively share address and transaction information for auditing or regulatory compliance.",
   "type": "service",
@@ -9,8 +15,6 @@
   "contributors": [
     "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
   ],
-  "upstreamRepo": "zcash/zcash",
-  "upstreamArg": "UPSTREAM_VERSION",
   "chain": "bitcoin",
   "requirements": {
     "minimumDappnodeVersion": "0.2.10"
